@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodejs-inspector' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'nodejs-inspector', null ]
+5 verbose cache add name=undefined spec="nodejs-inspector" args=["nodejs-inspector",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodejs-inspector',
+6 verbose parsed url   path: 'nodejs-inspector',
+6 verbose parsed url   href: 'nodejs-inspector' }
+7 silly lockFile a8cfe4b1-nodejs-inspector nodejs-inspector
+8 verbose lock nodejs-inspector /home/justin/.npm/a8cfe4b1-nodejs-inspector.lock
+9 silly lockFile a8cfe4b1-nodejs-inspector nodejs-inspector
+10 silly lockFile a8cfe4b1-nodejs-inspector nodejs-inspector
+11 verbose addNamed [ 'nodejs-inspector', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 81ca1e35-nodejs-inspector nodejs-inspector@
+14 verbose lock nodejs-inspector@ /home/justin/.npm/81ca1e35-nodejs-inspector.lock
+15 silly addNameRange { name: 'nodejs-inspector', range: '*', hasData: false }
+16 verbose url raw nodejs-inspector
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nodejs-inspector' ]
+18 verbose url resolved https://registry.npmjs.org/nodejs-inspector
+19 info trying registry request attempt 1 at 13:37:41
+20 http GET https://registry.npmjs.org/nodejs-inspector
+21 http 404 https://registry.npmjs.org/nodejs-inspector
+22 silly registry.get cb [ 404,
+22 silly registry.get   { date: 'Tue, 30 Dec 2014 21:37:42 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '52',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1419975462.083409,VS0,VE364',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly lockFile 81ca1e35-nodejs-inspector nodejs-inspector@
+24 silly lockFile 81ca1e35-nodejs-inspector nodejs-inspector@
+25 error 404 'nodejs-inspector' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Linux 3.13.0-43-generic
+27 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "nodejs-inspector"
+28 error cwd /home/justin/CodeEval_Challenges/Easy/Prime_Palindrome
+29 error node -v v0.10.25
+30 error npm -v 1.3.10
+31 error code E404
+32 verbose exit [ 1, true ]
